@@ -47,4 +47,3 @@ class UserService:
 
         if not re.match("[^a-z]*[a-z]*[^a-z]+[a-z]*[^a-z]*", password):
             raise UserInputError("Password can't contain only letters")
-        # toteuta loput tarkastukset tänne ja nosta virhe virhetilanteissa
